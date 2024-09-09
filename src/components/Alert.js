@@ -1,5 +1,5 @@
 import React from 'react';
-import useAlert from './hooks/useAlert';
+import useAlert from '../hooks/useAlert';
 const Alert = () => {
     const {alert} = useAlert();
     if (!alert) return null;

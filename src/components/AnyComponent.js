@@ -1,5 +1,5 @@
 import React from 'react';
-import useAlert from './useAlert';
+import useAlert from '../hooks/useAlert';
 const AnyComponent = () => {
     const { showAlert, hideAlert } = useAlert();
     const handleClick = () => {

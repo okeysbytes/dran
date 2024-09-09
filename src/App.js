@@ -1,7 +1,7 @@
 
-import { AlertProvider } from './AlertContext';
-import Alert from './Alert';
-import AnyComponent from './AnyComponent';
+import { AlertProvider } from './context/AlertContext';
+import Alert from './components/Alert';
+import AnyComponent from './components/AnyComponent';
 const App = () => {
   return (
     <AlertProvider>
